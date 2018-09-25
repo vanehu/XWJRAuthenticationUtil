@@ -156,7 +156,7 @@ public class IDetection {
 	 */
 	public void detectionTypeInit() {
 		ArrayList<DetectionType> tmpTypes = new ArrayList<Detector.DetectionType>();
-		tmpTypes.add(Detector.DetectionType.BLINK);// 眨眼
+//		tmpTypes.add(Detector.DetectionType.BLINK);// 眨眼
 		tmpTypes.add(Detector.DetectionType.MOUTH);// 张嘴
 		tmpTypes.add(Detector.DetectionType.POS_PITCH);// 缓慢点头
 		tmpTypes.add(Detector.DetectionType.POS_YAW);// 左右摇头
